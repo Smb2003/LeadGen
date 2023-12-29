@@ -1,0 +1,96 @@
+.container{
+    background-image: url("/src/assets/img/bg-masthead.jpg");
+    background-size: 99.7% 100%;
+    background-repeat: no-repeat;
+    min-width: 300px;
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* justify-content: center;  */
+    padding: 10px;
+}
+.container>h1{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 6px;
+    opacity: none;
+    border: none;
+}
+
+.container3{
+    min-width: 300px;
+    min-height: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+}
+.image3{
+    background-image: url("/src/assets/img/bg-showcase-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 49.49%;
+    min-height: 150px;
+
+}
+
+.Mobilecontent3{
+    width: 43%;
+    min-height: 150px;
+    padding: 50px;
+}
+.image4{
+    background-image: url("/src/assets/img/bg-showcase-2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50.5%;
+    min-height: 150px;
+
+}
+
+.Mobilecontent4{
+    width: 41%;
+    min-height: 150px;
+    padding: 50px;
+   
+}
+.image5{
+    background-image: url("/src/assets/img/bg-showcase-3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 49.49%;
+    min-height: 150px;
+   
+}
+
+.Mobilecontent5{
+    width: 43%;
+    min-height: 150px;
+    padding: 50px;
+}
+
+@media screen and (max-width: 420px) {
+    .image3,.image4,.image5{
+        width: 100%;
+        min-height: 210px;
+        margin-bottom: 10px;
+    }
+    .Mobilecontent3,.Mobilecontent4,.Mobilecontent5{
+        width: 100%;
+    }
+    input{
+        width: 170px;
+    }
+}
